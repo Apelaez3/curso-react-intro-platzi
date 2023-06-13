@@ -1,8 +1,10 @@
-function TodoItem(){
+import './TodoItem.css'
+
+function TodoItem(props){
     return(
       <li>
-        <span>v</span>
-        <p>texto</p>
+        <span>v {props.completed}</span>
+        <p>{props.text}</p>
         <span>X</span>
       </li>
     );

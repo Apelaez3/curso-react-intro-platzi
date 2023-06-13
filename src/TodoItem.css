@@ -1,0 +1,10 @@
+li{
+    border:solid gray 1px;
+    border-radius: 20px ;
+    width: 80%;
+    height: 70px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
